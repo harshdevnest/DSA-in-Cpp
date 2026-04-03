@@ -1,4 +1,4 @@
-# 🚀 My DSA Journey in C++
+# DSA Stuff
 
 This repository documents my journey of learning **Data Structures and Algorithms using C++**.
 
