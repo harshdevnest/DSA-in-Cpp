@@ -2,8 +2,8 @@
 #include <iostream>
 using namespace std;
 
-int reverNum(int num){
-    int rev = 0 ;
+long long int  reverNum(long long num){
+    long long int rev = 0 ;
     while (num >0)
     {
         /* code */
@@ -16,7 +16,7 @@ int reverNum(int num){
 }
 
 //check number with reversed 
-bool compare(int num ,int revnum ){
+bool compare(long long int num ,long long int revnum ){
     if (num==revnum)
     {
         return true;
@@ -24,7 +24,7 @@ bool compare(int num ,int revnum ){
     else return false;
 }
 int main (){
-    int num;
+    long long int num;
     cout<<"enter a number to check its paindrome or not :"<<endl;
     cin>>num;
 
