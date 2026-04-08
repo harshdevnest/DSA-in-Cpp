@@ -1,3 +1,35 @@
+/*
+    Program: Product of Array Except Self
+
+    Description:
+    This program computes a new array where each element at index i
+    is the product of all elements of the original array except arr[i].
+
+    Approach:
+    - Instead of using division, we use two auxiliary arrays:
+        1. preProduct[] → stores the product of all elements to the left of i
+        2. sufProduct[] → stores the product of all elements to the right of i
+    - Final result for each index:
+        product[i] = preProduct[i] * sufProduct[i]
+
+    Steps:
+    1. Initialize preProduct[0] = 1 (no elements to the left)
+    2. Fill preProduct from left to right
+    3. Initialize sufProduct[n-1] = 1 (no elements to the right)
+    4. Fill sufProduct from right to left
+    5. Multiply corresponding elements of preProduct and sufProduct
+
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+
+    Example:
+    Input:  [-1, 2, -3, 4]
+    Output: [-24, 12, -8, 6]
+
+    Note:
+    This method avoids division and works even when the array contains zero.
+*/
+
 #include <iostream>
 #include <vector>
 using namespace std;
