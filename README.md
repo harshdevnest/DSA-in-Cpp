@@ -12,7 +12,7 @@ It includes solutions to commonly asked coding problems and fundamental concepts
 
 ## 🧠 Topics to be Covered
 - 📦 Arrays  (Done)
-- 🔍 Searching & Sorting  
+- 🔍 Searching & Sorting  (In progress)
 - 🔁 Recursion & Backtracking  (Done)
 - 🔗 Linked List  
 - 📚 Stack & Queue  
