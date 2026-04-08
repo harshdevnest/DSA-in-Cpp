@@ -10,7 +10,7 @@ It includes solutions to commonly asked coding problems and fundamental concepts
 
 ---
 
-## 🧠 Topics Covered
+## 🧠 Topics to be Covered
 - 📦 Arrays  
 - 🔍 Searching & Sorting  
 - 🔁 Recursion & Backtracking  
