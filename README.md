@@ -11,9 +11,9 @@ It includes solutions to commonly asked coding problems and fundamental concepts
 ---
 
 ## 🧠 Topics to be Covered
-- 📦 Arrays  
+- 📦 Arrays  (Done)
 - 🔍 Searching & Sorting  
-- 🔁 Recursion & Backtracking  
+- 🔁 Recursion & Backtracking  (Done)
 - 🔗 Linked List  
 - 📚 Stack & Queue  
 - 🌳 Trees & Binary Trees  
