@@ -1,3 +1,5 @@
+//Brute force solution using nested loops
+
 #include <iostream>
 using namespace std;
 
@@ -22,7 +24,6 @@ using namespace std;
  }
 
  int main(){
-    int arr[] = {2,6,3,4,5};
     int len = sizeof(arr)/sizeof(arr[0]);
 
     for (int i = 0; i < len; i++)
