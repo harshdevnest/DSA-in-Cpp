@@ -1,9 +1,6 @@
-# DSA Stuff
+#🚀 DSA in C++
 
-This repository documents my journey of learning **Data Structures and Algorithms using C++**.
-
-I’m building this step by step by practicing problems, improving logic, and strengthening my fundamentals.
-
+A structured collection of Data Structures and Algorithms implemented in C++, built for practice, learning, and interview preparation.
 ---
 
 ## 📌 What you'll find here
