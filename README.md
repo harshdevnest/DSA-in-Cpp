@@ -23,23 +23,6 @@ It includes solutions to commonly asked coding problems and fundamental concepts
 
 ---
 
-## 📂 Folder Structure
-DSA-in-Cpp/
-│── Arrays/
-│── Sorting/
-│── Recursion/
-│── LinkedList/
-│── Stack/
-│── Queue/
-│── Trees/
-│── Graphs/
-│── DP/
-
----
-
-
----
-
 ## ⚙️ Tech Stack
 - **Language:** C++  
 - **Compiler:** g++  
