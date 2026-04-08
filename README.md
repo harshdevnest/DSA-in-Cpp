@@ -1,56 +1,48 @@
-🚀 DSA in C++
+# 🚀 DSA in C++
 
-A structured collection of Data Structures and Algorithms implemented in C++, built for practice, learning, and interview preparation.
+A structured collection of **Data Structures and Algorithms implemented in C++**, focused on **learning, problem-solving, and interview preparation**.
 
-📌 About
+---
 
-This repository documents my journey of mastering DSA using C++.
-It contains well-organized solutions to commonly asked problems from platforms like:
+## 📌 About
+This repository represents my journey of mastering DSA using C++.  
+It includes solutions to commonly asked coding problems and fundamental concepts.
 
-LeetCode
-GeeksforGeeks
-CodeStudio
+---
 
-The goal is to build strong problem-solving skills and crack technical interviews.
+## 🧠 Topics Covered
+- 📦 Arrays  
+- 🔍 Searching & Sorting  
+- 🔁 Recursion & Backtracking  
+- 🔗 Linked List  
+- 📚 Stack & Queue  
+- 🌳 Trees & Binary Trees  
+- 🌐 Graphs  
+- 💡 Greedy Algorithms  
+- ⚡ Dynamic Programming  
 
-🧠 Topics Covered
-Arrays
-Searching & Sorting
-Recursion & Backtracking
-Linked List
-Stack & Queue
-Trees & Binary Trees
-Graphs
-Greedy Algorithms
-Dynamic Programming
-📂 Structure
+---
 
-Each topic is organized into folders for easy navigation:
-
+## 📂 Folder Structure
 DSA-in-Cpp/
 │── Arrays/
 │── Sorting/
 │── Recursion/
+│── LinkedList/
+│── Stack/
+│── Queue/
 │── Trees/
 │── Graphs/
 │── DP/
-⚙️ Tech Stack
-Language: C++
-Compiler: g++
-IDE: VS Code
-🎯 Purpose
-Practice DSA consistently
-Prepare for coding interviews
-Build a strong coding foundation
-🚀 How to Run
-g++ filename.cpp -o run
-./run
-⭐ Contribute / Support
 
-If you find this repo helpful:
+---
 
-⭐ Star the repo
-🍴 Fork it
-🤝 Contribute improvements
-📬 Connect with Me
-GitHub: https://github.com/harshdevnest
+
+---
+
+## ⚙️ Tech Stack
+- **Language:** C++  
+- **Compiler:** g++  
+- **IDE:** VS Code  
+
+---
