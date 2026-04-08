@@ -2,7 +2,7 @@
 
 A structured collection of Data Structures and Algorithms implemented in C++, built for practice, learning, and interview preparation.
 ---
-📌 About
+## 📌 About
 
 This repository documents my journey of mastering DSA using C++.
 It contains well-organized solutions to commonly asked problems from platforms like:
