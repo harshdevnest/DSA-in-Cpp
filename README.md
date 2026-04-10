@@ -38,14 +38,3 @@ This repository tracks my journey through the world of DSA. It includes fundamen
 * **Topics:** Core DSA + OS/Networking Fundamentals
 
 ---
-
-## 📂 Repository Structure
-```bash
-.
-├── 01-Arrays
-│   └── kadanes_algorithm.cpp
-├── 02-Searching-Sorting
-│   └── binary_search.cpp
-├── 03-Recursion
-│   └── permutations.cpp
-└── README.md
