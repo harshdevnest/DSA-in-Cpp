@@ -1,62 +1,62 @@
 #include <iostream>
 #include <vector>
-#include <utility> // For std::pair
+#include <string>  // Required for string parameters
+#include <utility> // Required for pair
+
 using namespace std;
 
-
-
-void printVector(const string& label, const vector<int>& v) {
+// Function to print a 1D vector clearly
+void printVector(string label, const vector<int>& v) {
     cout << label << ": [ ";
-    for (const int& x : v) {
+    for (int x : v) {
         cout << x << " ";
     }
     cout << "]" << endl;
 }
 
 int main() {
-    // --- 1. Basic Vector Operations ---
+    // 1. Basic Operations
     vector<int> v;
     v.push_back(10);
     v.push_back(20);
     v.push_back(30);
 
-    // Initializer list & Fixed size
     vector<int> v2 = {1, 2, 3, 4, 5};
-    vector<int> v3(5, 100);  // Size: 5, Elements: 100
-    vector<int> v4(v2);      // Copy Constructor
+    vector<int> v3(5, 100); 
+    vector<int> v4 = v2; // Copying
 
     printVector("Standard Vector", v);
     printVector("Initialized Vector", v2);
-    printVector("Fixed-Size Vector", v3);
-
+    
     cout << "-----------------------------------" << endl;
 
-    // --- 2. 2D Vector (Matrix) ---
-    // Creating a 2x3 matrix initialized with 0
-    int rows = 2, cols = 3;
-    vector<vector<int>> matrix(rows, vector<int>(cols, 0));
+    // 2. 2D Vector (Matrix)
+    // In older C++, avoid '>>' and use '> >' (with a space)
+    vector<vector<int> > matrix(2, vector<int>(3, 0));
 
     cout << "2D Matrix (2x3):" << endl;
-    for (const auto& row : matrix) {
+    for (int i = 0; i < matrix.size(); i++) {
         cout << "  ";
-        for (int val : row) {
-            cout << val << " ";
+        for (int j = 0; j < matrix[i].size(); j++) {
+            cout << matrix[i][j] << " ";
         }
         cout << endl;
     }
 
     cout << "-----------------------------------" << endl;
 
-    // --- 3. Vector of Pairs ---
-    // Useful for Graph Adjacency Lists or coordinate systems
-    vector<pair<int, int>> pairs = {{1, 2}, {3, 4}, {5, 6}};
+    // 3. Vector of Pairs
+    vector<pair<int, int> > pairs;
+    pairs.push_back({1, 2});
+    pairs.push_back({3, 4});
     
-    // Using emplace_back for better performance (constructs in place)
-    pairs.emplace_back(7, 8); 
+    // Using emplace_back (more efficient for pairs)
+    pairs.emplace_back(5, 6); 
 
     cout << "Vector of Pairs: ";
-    for (const auto& [first, second] : pairs) { // Using C++17 Structured Bindings
-        cout << "{" << first << ", " << second << "} ";
+    // Using standard pair access for better compatibility
+    for (int i = 0; i < pairs.size(); i++) {
+        cout << "{" << pairs[i].first << ", " << pairs[i].second << "} ";
     }
     cout << endl;
 
