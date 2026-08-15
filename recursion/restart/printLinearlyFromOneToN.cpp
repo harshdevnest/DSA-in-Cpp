@@ -15,10 +15,10 @@ void printNumber(int n, int temp)
 
 int main()
 {
-    int n ,temp=1;
+    int n, temp = 1;
 
     cout << "enter N:" << endl;
     cin >> n;
-    printNumber(n,temp);
+    printNumber(n, temp);
     return 0;
 }
