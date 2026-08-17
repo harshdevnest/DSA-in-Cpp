@@ -16,4 +16,4 @@ int main (){
     cin>> n;
     int sum = sumOf(n);
     cout<< "sum of first n numbers is :"<<sum;
-}5
+}
