@@ -13,7 +13,6 @@ void selection_sort (int arr[],int n){
             }
         }
         swap(arr[i],arr[mini]);
-        // arr[i]=min(arr[i],arr[mini]);
 
         // Print array after sorting
 
