@@ -31,7 +31,7 @@ void bubble_sort(int arr[], int n)
 int main()
 {
     // Initialize array
-    int arr[] = {13, 46, 24, 52, 20, 9};
+    int arr[] = {13, 13, 13, 52, 20, 9};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     // Print array before sorting
